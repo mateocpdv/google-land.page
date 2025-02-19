@@ -8,7 +8,7 @@ a {
   /* left: 65rem; */
 }
 
-header > img {
+header > #profile {
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -16,12 +16,26 @@ header > img {
   padding: 5px;
 }
 
+#apps {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  padding: 15px;
+}
 #search {
   padding-left: 40px;
   border: none;
-  width: 50%;
-  height: 40px;
+  width: 60%;
+  height: 45px;
   border-radius: 30px;
+  margin: 30px;
+}
+.icon-placeholder {
+  padding-left: 30px;
+  background-image: url(./src/img/search-icon.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 3% center;
 }
 
 /* input::placeholder {
@@ -38,17 +52,30 @@ article {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
-  background: #473055;
+  background: #3c3c3c;
   min-height: 90vh;
 }
 
-img {
-  display: flex;
-  flex-direction: row;
+#google {
   height: 122px;
-  width: 272px;
+  width: 285px;
+  padding-top: 80px;
+}
+
+.icons-searchbar {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.searchbar {
+  display: flex;
+  direction: row;
 }
