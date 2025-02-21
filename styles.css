@@ -34,11 +34,11 @@ header > #profile {
   margin: 30px;
 }
 .icon-placeholder {
-  padding-left: 30px;
+  padding-left: 40px;
   background-image: url(./src/img/search-icon.png);
   background-size: 15px 15px;
   background-repeat: no-repeat;
-  background-position: 3% center;
+  background-position: 2% center;
 }
 
 /* input::placeholder {
@@ -51,7 +51,7 @@ header {
   justify-content: flex-end;
 }
 
-article {
+section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -91,13 +91,13 @@ body {
   padding: 30px;
 }
 
-.access-content {
+ul.access-content-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
-.element-access {
+.access-content-list > .element-access {
   /* margin-top: x; */
 
   display: flex;
@@ -119,4 +119,11 @@ body {
   background-color: rgba(71, 71, 71, 0.753);
   transition: box-shadow 0.1s ease-in-out;
   border-radius: 10px;
+}
+.mateo-parent > .mateo-class {
+  background-color: lightblue;
+}
+
+#mateo-id {
+  background-color: coral;
 }
