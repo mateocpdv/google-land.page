@@ -125,3 +125,55 @@ ul.access-content-list {
 #mateo-id {
   background-color: coral;
 }
+
+.elements-popout {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  padding: 15px;
+  margin-left: 2px;
+}
+
+.element-access .profile {
+  height: 35px;
+  width: 35px;
+  padding: 15px;
+  margin-left: 2px;
+}
+
+.element-access p {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;
+}
+
+ul.popout {
+  list-style-type: none;
+  display: flex;
+}
+
+.popout .element-access {
+  height: 90px;
+  width: 90px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+  top: 60px; /* Ajusta la posición según sea necesario */
+  left: 20px; /* Ajusta la posición según sea necesario */
+}
+
+.apps:hover + .menu {
+  display: block;
+}
+
+.apps {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
